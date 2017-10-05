@@ -1,19 +1,17 @@
 {
-  "name": "streamiterator",
-  "version": "1.2.3",
-  "description": "converts ReadableStream into AsyncIterator",
+  "name": "@vadzim/callbackToIterator",
+  "version": "0.0.1",
+  "description": "Helper function to create async iterators",
   "keywords": [
     "iterable",
-    "stream",
-    "ReadableStream",
     "async",
     "iterator",
     "AsyncIterator"
   ],
-  "repository": "https://github.com/vadzim/streamiterator",
+  "repository": "https://github.com/vadzim/callbackToIterator",
   "author": "Vadzim Zieńka <developer@vadzim.info>",
   "contributors": [],
-  "main": "distr/streamiterator.js",
+  "main": "distr/callbackToIterator.js",
   "scripts": {
     "build": "babel source --out-dir distr",
     "prettier": "prettier --write $(cat .prettier) 'source/**/*.js' '*.js'",
@@ -23,7 +21,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vadzim/streamiterator/issues"
+    "url": "https://github.com/vadzim/callbackToIterator/issues"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
