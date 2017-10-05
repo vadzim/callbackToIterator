@@ -1,5 +1,5 @@
 {
-  "name": "@vadzim/callbackToIterator",
+  "name": "@vadzim/callback-to-iterator",
   "version": "0.1.0",
   "description": "Helper function to create async iterators",
   "keywords": [
