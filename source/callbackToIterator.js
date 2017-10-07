@@ -12,7 +12,7 @@ export default function callbackToIterator<D>({
 }: {|
 	resume?: () => void,
 	pause?: () => void,
-	destroy?: () => ?Promise<mixed>,
+	destroy?: () => void | Promise<mixed>,
 |}): {|
 	iterable: AsyncIterable<D>,
 	emitData: (data: D) => void,
